@@ -1,6 +1,6 @@
 import json
 
-class Analyscratch:
+class PyScratch:
     def __init__(self, filename):
         self.filename = filename
         with open(self.filename) as json_file:
